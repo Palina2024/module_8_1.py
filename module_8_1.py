@@ -2,7 +2,7 @@
 def add_everything_up(a, b):
     try:
         c = a + b
-        print(c)
+        print(round(c, 4))
 
     except TypeError:
         print(a, b, sep='')
